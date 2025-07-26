@@ -1,0 +1,19 @@
+p {  /* tag selector*/
+    color: red;
+}
+
+.CourseName { /* class selector */
+    color: green;
+}
+
+#CourseName { /* id selector */
+    color: purple;
+}
+
+[disabled] { /* Property selector */                   
+    color: chocolate;
+}
+
+* { /* Universal selector */
+    color: brown;
+}
