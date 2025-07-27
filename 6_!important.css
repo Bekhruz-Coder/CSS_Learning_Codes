@@ -1,0 +1,7 @@
+h1 {
+    color: red !important; /* "!important" dan foydalanish maslahat berilmaydi */
+}
+
+.sarlavha {
+    color: green;
+}
