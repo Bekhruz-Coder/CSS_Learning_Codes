@@ -1,0 +1,19 @@
+/* Descendent selector (Avlod selektori) */
+div p { /* divni avlodi bo'lgan barcha p elementlarini tanlaydi. */
+    background-color: yellow;
+}
+
+/* Child selector */
+div > p { /* faqat divga child bo'lgan p elementlarini tanlaydi. */
+    background-color: green;
+}
+
+/* Adjacent sibling selector */
+div + p { /*div elementdan keyingi keladigan birinchi p elementini o'z ichiga oladi. */
+    background-color: brown;
+}
+
+/* General sibling selector */ 
+div ~ p { /* divdan keyingi kelgan va sibling bo'lgan barcha p elementlarni tanlaydi. */
+    background-color: chocolate;
+}
