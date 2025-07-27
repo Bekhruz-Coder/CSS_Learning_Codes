@@ -1,0 +1,13 @@
+section {
+    color: darkcyan;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+p {
+    color: green;
+}
+
+/* element > elementni o'z ichiga oluvchi element */
