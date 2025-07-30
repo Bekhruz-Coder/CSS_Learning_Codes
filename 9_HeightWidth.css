@@ -1,0 +1,42 @@
+/* max-height */
+.paragraph1 {
+    background-color: red;
+    max-height: 40px;
+    overflow: auto;
+}
+
+/* 
+max-height: Eng katta balandlikgacha ega bo'la olishi mumkin, 
+lekin undan oshib ketmaydi. element max-heightdan kichik balandlikka 
+ega bo'lsa elementga qarab balandlik auto moslashadi. 
+*/ 
+
+/* min-height */
+.paragraph2 {
+    background-color: blue;
+    min-height: 30px;
+}
+
+/*
+min-height: Eng kichik balandlik bo'lib, 
+elementning balandligi min-heightdan katta bo'lsa ham 
+balandlik elementga qarab auto moslashadi. 
+*/
+
+/* max-width */
+.box1 {
+    width: 1000px;
+    background-color: red;
+}
+
+.box2 {
+    max-width: 1000px;
+    background-color: blue;
+}
+
+/* min-width */
+.box3 {
+    background-color: green;
+    display: inline-block;
+    min-width: 200px;
+}
