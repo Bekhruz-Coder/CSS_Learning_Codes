@@ -5,3 +5,25 @@
 .link {
     background-color: yellow;
 }
+
+.to-block {
+    background-color: rgb(98, 201, 122);
+    display: block;
+}
+
+.to-inline {
+    background-color: blue;
+    display: inline;
+}
+
+.to-inline-block {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+}
+
+.to-none {
+    background-color: rgb(15, 138, 225);
+    display: none;
+}
