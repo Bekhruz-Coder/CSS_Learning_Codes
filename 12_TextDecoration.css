@@ -1,0 +1,43 @@
+/* Text-decoration: underline, line-through, none */
+.heading-1 {
+    text-decoration: underline;
+}
+
+.heading-2 {
+    text-decoration: line-through;
+}
+
+.link {
+    text-decoration: none;
+}
+/* ------------------------------------ */
+
+
+/* Pseuo classes=   :hover(elementni ustiga sichqoncha olib kelingandagi holat.)
+                    :active(elementni ustiga sichqoncha bosib turilgan holat.) */
+.hover:hover {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+}
+.hover:active {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.pseudo:hover {
+    background-color: aqua;
+}
+
+.pseudo:active {
+    background-color: red;
+    color: white;
+}
+/* --------------------------------------------------------*/
+
+
+/* Grouping rules */
+
+.grouping, .grouping-1 {
+    background-color: rgb(64, 216, 87);
+}
