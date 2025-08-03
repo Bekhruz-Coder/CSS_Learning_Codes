@@ -1,0 +1,36 @@
+/* position: relative; */
+.relative-box {
+    position: relative;
+    background-color: blue;
+    color: yellow;
+    top: 200px;
+    height: 100px;
+}
+
+.box {
+    background-color: red;
+    color: yellow;
+    height: 50px;
+    padding-bottom: 1000px;
+}
+/* 
+    position: relative; bu orqali top/bottom, 
+            left/right qiymatlarini berishimiz mumkin va 
+            qiymat berilgan element atrofida turgan 
+            elementga hech qanday ta'sri ko'rsatmaydi. 
+*/ 
+
+/* viewport: foydalanuvchiga ko'rinadigan qism */
+
+
+
+/* position: fixed */
+.fixed-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: chocolate;
+    height: 100px;
+}
+
+/* elementni foydalanuvchiga har doim ko'rinadigan qilish uchun ishlatiladi. */
