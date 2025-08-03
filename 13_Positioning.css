@@ -1,0 +1,16 @@
+.box {
+    background-color: red;
+    height: 200px;
+    margin-top: 10px;
+    bottom: 10px;
+    position: relative;
+}
+
+.link {
+    background-color: blue;
+    color: white;
+}
+
+/*
+position: static; =  HTMLda har bir element boshida shu qiymatga ega bo'ladi.
+*/
