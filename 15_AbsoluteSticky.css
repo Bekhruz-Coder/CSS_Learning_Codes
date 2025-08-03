@@ -1,0 +1,30 @@
+.relative-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 50px;
+    height: 100px;
+    border: 5px solid blue;
+}
+
+/*-------------------------------------*/
+
+.high-box {
+    height: 1000px;
+    border: 5px solid blue;
+}
+
+.sticky-box {
+    position: sticky; /* sticky == relative and fixed; */
+    top: 50px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+}
