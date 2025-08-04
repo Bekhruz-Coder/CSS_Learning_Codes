@@ -1,0 +1,9 @@
+.box {
+    height: 3000px;
+    background-image: url(./project/images/nature.jpg);
+    color: brown;
+    background-repeat: no-repeat; /* background-repeat: repeat; repeat-x; repeat-y; no-repeat; */
+    /* background-size: contain; */ /* background-size: cover; contain, 200px 150px; */
+    background-position: 500px 250px; /* background-position: right center; left bottom; etc */
+    border: 15px solid red;
+}
