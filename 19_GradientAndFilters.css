@@ -1,0 +1,73 @@
+/* Gradients */ 
+/* I) Linear gradients: chiziqli gradientlar yaratib beradi. */
+.linear-gradient-box {
+    width: 600px;
+    height: 800px;
+    background-image: linear-gradient(to bottom right, red, green, blue); 
+    /* If direction is not given, the colors will be placed from top to bottom. */
+}
+/* /I) Linear gradients */
+
+/* II) Radial gradients: nurli gradient yaratib beradi. */
+.radial-gradient-box {
+    width: 600px;
+    height: 800px;
+    background-image: radial-gradient(circle, red, yellow, blue);
+    /* If the image is not given a shape, the color will appear as a circle or ellipse, depending on the width and height of the color. */
+    margin-top: 20px;
+}
+/* /II) Radial gradients */
+/* /Gradients */
+
+/* Filters */
+.orginal-image {
+    color: white;
+    font-size: 64px;
+    background-image: url(./project/images/nature.jpg);
+    width: 800px;
+    height: 600px;
+    border: 2px solid red;
+    background-size: cover;
+}
+.blur {
+    width: 800px;
+    height: 600px;
+    filter: blur(10px); /* rasmni xiralashtiradi */
+}
+
+.brightness {
+    width: 800px;
+    height: 600px;
+    filter: brightness(0.6);
+}
+
+.contrast {
+    width: 800px;
+    height: 600px;
+    filter: contrast(0.5);
+}
+
+.grayscale {
+    width: 800px;
+    height: 600px;
+    filter: grayscale(1); /* rasmning rangini gray yani cho'rniy qiladi */
+}
+
+.hue-rotate {
+    width: 800px;
+    height: 600px;
+    filter: hue-rotate(180deg); /* Rasmning rang aylanishi */
+}
+
+.invert {
+    width: 800px;
+    height: 600px;
+    filter: invert(100%);
+}
+
+.opacity {
+    width: 800px;
+    height: 600px;
+    filter: opacity(1); /* rasmni ko'rinish darajasi */
+}
+/* /Filters */
