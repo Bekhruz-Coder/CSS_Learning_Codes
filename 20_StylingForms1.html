@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Styling Forms 1</title>
+        <link rel="stylesheet" href="./20_StylingForms1.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="/server.php" method="get">
+                <label for="firstname">Ism</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Ismingiz">
+
+                <label for="surname">Familiya</label>
+                <input type="text" id="surname" name="surname" placeholder="Familiyangiz">
+
+                <label for="country">Davlat</label>
+                <select name="country" id="country">
+                    <option value="uzb">O'zbekiston</option>
+                    <option value="usa">AQSH</option>
+                    <option value="russia">Rossiya</option>
+                    <option value="korea">Janubiy Koreya</option>
+                </select>
+
+                <label for="message">Xabar</label>
+                <textarea name="message" id="message" placeholder="Xabaringiz"></textarea>
+
+                <button type="submit" class="button">Jo'natish</button>
+            </form>
+        </div>
+    </body>
+</html>
