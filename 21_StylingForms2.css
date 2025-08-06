@@ -1,0 +1,115 @@
+/* Container for Radio Buttons */
+.form-control {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Brauzerning radio buttonini berkitish */
+.form-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Maxsus radio buttonga style berish */
+.custom-radio {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+/* Sichqoncha olib borilganda maxsus orqa fon rangini o'zgartirish */
+.form-control:hover input ~ .custom-radio {
+    background-color: #ccc;
+}
+
+/* Radio button tanlanganda uning orqa foniga rang berish */
+.form-control input:checked ~ .custom-radio {
+    background-color: green;
+}
+
+/* Radio button tanlanganlini bildiruvchi belgi yaratish */
+.custom-radio:after {
+    top: 8px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Tanlangan payitida belgini ko'rsatish */
+.form-control input:checked ~ .custom-radio:after {
+    display: block;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* Container for Checkbox */
+.form-control {
+    display: block;
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Brauzerning checkboxini berkitish */
+.form-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Maxsus checkboxga style berish */
+.custom-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #ddd;
+}
+
+/* Sichqoncha olib borilganda orqa fonni o'zgartirish */
+.form-control:hover input ~ .custom-checkbox{
+    background-color: #ccc;
+}
+
+/* Tanlanganda orqa fonni o'zgartirish */
+.form-control input:checked ~ .custom-checkbox {
+    background-color: green;
+}
+
+/* Checkbox tanlanganligini bildiruvchi belgini yaratish */
+.custom-checkbox:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Tanlangan payitida belgini ko'rsatish */
+.form-control input:checked ~ .custom-checkbox:after {
+    display: block;
+}
