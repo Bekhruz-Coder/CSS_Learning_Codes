@@ -1,0 +1,41 @@
+/* Position fixed */
+.fixed-box {
+    position: fixed;
+    width: 50%;
+    padding: 10%;
+    height: 200px;
+    background-color: red;
+}
+/* Position: fixed; - elementning o'lchami view portga qarab va width foyizi bo'yicha o'zgaradi. */
+
+
+/* Position absolute */
+.positioned-box {
+    position: relative;
+    width: 800px;
+    padding: 50px;
+    background-color: green;
+}
+.absolute-box {
+    position: absolute;
+    width: 50%;
+    background-color: yellow;
+}
+/* Position: absolute; - biz ko'rsatgan foiz qiymatimiz eng yaqin positioned avlodining content 
+    va padding qiymatlarini yigindisiga (content + padding)ga nisbatan o'lchamga ega bo'ladi. */
+
+
+/* Position: static/relative; */
+.block-box {
+    width: 800px;
+    padding: 50px;
+    background-color: purple;
+}
+.relative-box {
+    position: relative;
+    width: 50%;
+    background-color: yellow;
+}
+
+/* Position: static/relative; - biz ko'rsatgan foiz qiymatimiz eng yaqin block turidagi avlodining 
+    content qiymatiga nisbatan o'lchamga ega bo'ladi. */
