@@ -1,0 +1,73 @@
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid red;
+    font-size: 20px;
+    border-radius: 0.5em;
+    padding: 5em;
+    display: inline-block
+}
+
+.parent-box {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.box1 {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 0.5em;
+    padding: 5em;
+}
+
+.parent-box2 {
+    display: inline-block;
+}
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid purple;
+    border-radius: 0.5em;
+    padding: 5em;
+}
+
+.parent-box3 {
+    font-size: 30px;
+}
+
+.child-box3 {
+    font-size: 2em;
+}
+
+.box3 {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 0.5em;
+    padding: 5em;
+}
+
+.container {
+    font-size: 20px;
+    padding: 0.5em;
+    border: 1px solid red;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.container h6 {
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
+.container p {
+    font-size: 0.8em;
+}
