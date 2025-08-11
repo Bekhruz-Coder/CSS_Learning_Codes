@@ -1,0 +1,46 @@
+/* "min-width:" Mobile first */
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+
+/* 600pxdan boshlab */
+@media only screen and (min-width: 600px) {
+    .box {
+        background-color: green;
+    }
+}
+
+/* 900px dan boshlab */
+/* Media So'rovlar har doim asosiy styledan keyin kelishi kerek */
+@media only screen and (min-width: 900px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+/* Kodning ketma-ketligi juda katta ahamiyatga ega. IMPORTANT */
+
+
+
+/* "max-width:" Desktop first */
+.box1 {
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+
+/* 900px gacha ko'k */
+@media only screen and (max-width: 900px) {
+    .box1 {
+        background-color: blue;
+    }
+}
+
+/* 600px gacha yashil  */
+@media only screen and (max-width: 600px) {
+    .box1 {
+        background-color: green;
+    }
+}
