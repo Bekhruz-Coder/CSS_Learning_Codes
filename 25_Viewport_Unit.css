@@ -1,0 +1,30 @@
+.box {
+    height: 50vh; /* == 50% height */
+    width: 50vw; /* == 50% width */
+    padding: 5vw;
+    background-color: red;
+}
+
+.parent-box {
+    width:50%;
+    background-color: red;
+    height: 200px;
+}
+
+.box1 {
+    width: 100vw;
+    background-color: yellow;
+    height: 50%; /* foiz birligi uning parent yoki ancester ga qarab o'zgaradi. */
+}
+
+.vmin-box {
+    height: 100px;
+    width: 50vmin;  /* vmin viewportdagi height va widthning kichigiga nisbatan ishlatiladi. */
+    background-color: red;
+}
+
+.vmax-box {
+    height: 100px;
+    width: 50vmax;  /* vmin viewportdagi height va widthning kichigiga nisbatan ishlatiladi. */
+    background-color: red;
+}
