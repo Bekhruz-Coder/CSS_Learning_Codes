@@ -170,3 +170,21 @@ body {
     color: #832C94;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 92%;
+    }
+    .main-navigation {
+        display: none;
+    }
+
+    .main-header__brand a img {
+        width: 128px;
+    }
+
+    /* Footer section */
+    .footer__navigation-item {
+        display: none;
+    }
+}
