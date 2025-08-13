@@ -171,20 +171,31 @@ body {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .container {
-        width: 92%;
+        width: 96%;
     }
     .main-navigation {
         display: none;
     }
 
     .main-header__brand a img {
-        width: 128px;
+        width: 96px;
     }
 
     /* Footer section */
     .footer__navigation-item {
         display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 92%;
+    }
+
+    .main-header__brand a img {
+        width: 128px;
     }
 }

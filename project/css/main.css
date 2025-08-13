@@ -399,15 +399,82 @@
 }
 
 
-@media only screen and (max-width: 767px) {
-
-    /* Main Section */
-    
-
+@media only screen and (max-width: 991px) {
+    /* Main section */
+    .main-section {
+        padding-top: 12rem;
+    }
     .main-section__image {
         display: none;
     }
 
+    .main-section > div {
+        width: 100%;
+    }
+
+    /* Statistics */
+    .statistics {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    /* About me section */
+    .about-me {
+        padding: 1.5rem 1.5rem;
+    }
+    .about-me > div {
+        width: 100%;
+    }
+    .about-me__image img {
+        display: none;
+    }
+
+    /* Services section */
+    .services {
+        padding: 1.5rem 0;
+    }
+
+    .service-card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /* Clients */
+    .clients {
+        padding: 1.5rem 0;
+    }
+
+    .client-item > div {
+        width: 100%;
+        float: none;
+    }
+
+    /* My Blogs section */
+    .blog {
+        padding: 1.5rem 0;
+    }
+    
+    .blog-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /* Partners */
+    .partners {
+        padding: 1.5rem 0;
+    }
+
+    .partner {
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* Main Section */
     .main-banner {
         background: none;
         min-height: auto;
@@ -415,10 +482,6 @@
 
     .main-section__action {
         display: none;
-    }
-
-    .main-section > div {
-        width: 100%;
     }
 
     .main-section__welcome {
@@ -443,36 +506,11 @@
         box-sizing: border-box;
     }
 
-    /* About me section */
-    .about-me {
-        padding: 1.5rem 1.5rem;
-    }
-    .about-me > div {
-        width: 100%;
-    }
-    .about-me__image img {
-        display: none;
-    }
-
     /* Services section */
-    .services {
-        padding: 1.5rem 0;
-    }
-
     .service-card {
         width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
-    }
-
-    /* Clients */
-    .clients {
-        padding: 1.5rem 0;
-    }
-
-    .client-item > div {
-        width: 100%;
-        float: none;
     }
 
     /* Our portfolio */
@@ -495,25 +533,9 @@
     }
 
     /* Blog section */
-    .blog {
-        padding: 1.5rem 0;
-    }
-
     .blog-item {
         width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
-    }
-
-    /* Partners */
-    .partners {
-        padding: 1.5rem 0;
-    }
-
-    .partner {
-        display: block;
-        padding: 0;
-        text-align: center;
-        margin-bottom: 10px;
     }
 }
