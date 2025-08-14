@@ -138,6 +138,7 @@
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
+    transition: all 0.4s ease 0s;
 }
 
 .service-card__title {
@@ -255,6 +256,7 @@
     width: 50%;
     padding: 0.93rem;
     box-sizing: border-box;
+    
 }
 
 .portfolio-item-1 {
@@ -282,9 +284,8 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(19, 69, 230, 0.9);
-    visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info {
@@ -294,6 +295,8 @@
     color: white;
     visibility: hidden;
     z-index: 1;
+    transition: all 0.4s ease 0s;
+    opacity: 0;
 }
 
 .portfolio-item__info a {
@@ -305,12 +308,14 @@
     visibility: visible;
     top: 20px;
     left: 20px;
+    background-color: rgba(19, 69, 230, 0.9);
 }
 
 .portfolio-item:hover .portfolio-item__info {
     visibility: visible;
     bottom: 24px;
     left: 60px;
+    opacity: 1;
 }
 
 /* Blog section styles */
@@ -324,6 +329,7 @@
 
 .blog-item {
     display: inline-block;
+    overflow: hidden;
     width: 30%;
     margin-right: 3%;
     box-sizing: border-box; /* marginni width ichida xisoblash uchun */
@@ -333,12 +339,22 @@
     box-shadow: 0px 10px 20px rgb(5 54 77 / 10%);
 }
 
+.blog-item:hover .blog-item__image img {
+    transform: scale(1.1);
+}
+
 .blog-item:hover .blog-item__info {
     background-color: white;
 }
 
+.blog-item__image {
+    overflow: hidden;
+}
+
 .blog-item__image img {
     width: 100%;
+    vertical-align: middle;
+    transition: all 0.4s ease 0s;
 }
 
 .blog-item__info {
