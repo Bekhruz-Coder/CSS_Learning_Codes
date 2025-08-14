@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+}
+
+.flex-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.order-minus-5 {
+    order: -5;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-10 {
+    order: 10;
+}
+
+/* 
+    order: qiymat qanchalik kichik bo'lsa element shuncahlik oldinroqda keladi.
+*/
+
+
+.flex-gorw-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+/* 
+    flex-grow: containerda bo'sh joy qolganda, qolgan bo'sh joyni growning qiymatiga qarab egallanadi.
+*/
+
+/* 
+    flex-shrink: joy qolmayotgan payti elementimiz o'z kengligini qanday suratda kichraytirishini belgilab beradi. 
+    bunda qiymat qanchalik katta bo'lsa element shuncha kichikroq shaklga o'tadi.
+*/
+
+/* 
+    flex-basis: flex-item uchun boshlang'ich o'lchovni belgilab beradi. 
+    flex-direction: row; bo'lganida fles-basis width ga urg'u beradi. 
+    flex-direction: column; bo'lganida flex-basis height ga urg'u beradi.
+*/
+
+/* 
+    flex: flex-grow flex-shrink flex-basis;
+*/
+
+/* 
+    align-self: auto, stretch, center, flex-start, flex-end;
+*/
+

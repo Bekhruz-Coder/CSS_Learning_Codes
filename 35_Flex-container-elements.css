@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    background-color: #025955;
+    border-radius: 10px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    padding: 60px 15px;
+    background-color: #fde8cd;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* 
+    Flex-direction: row, row-reverse, column, column-reverse;
+    Flex-wrap: nowrap, wrap, wrap-reverse;
+    Flex-flow: flex-direction flex-wrap;
+    Justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly;
+
+    Align-items: stretch, center, flex-start, flex-end;
+    Align-content: stretch, flex-start, flex-end, center, space-between, space-around, space-evenly;
+
+*/
