@@ -1,0 +1,34 @@
+@keyframes box-mover {
+    0% {
+        left: 0;
+        background-color: red;
+        width: 200px;
+    }
+
+    100% {
+        left: 500px;
+        background-color: green;
+        width: 400px;
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blue;
+    color: white;
+    animation-name: box-mover;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-direction: alternate; /* normal, reverse, alternate, alternate-reverse. */
+    animation-timing-function: ease; /* ease, ease-in, ease-out, ease-in-out, cubic-bezier */
+    animation-fill-mode: forwards; /* none(defoult), forwards, backwards, both */
+}
+
+/* animation: name duration timing-fuction delay iteration-count fill-mode direction play-state; */
+
+.box:hover {
+    animation-play-state: paused;
+}
