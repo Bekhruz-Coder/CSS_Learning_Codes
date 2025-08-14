@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  opacity: 0.2;
+  z-index: 0;
+}
+.square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #d1a12d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: rotate(0deg);       /* No rotation by default */
+  transition: transform 0.4s;    /* Smooth animation */
+}
+.container:hover .square {
+  transform: rotate(-10deg);     /* Rotates on hover */
+}
+.square span {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+
+/* 
+    transform: rotate(40deg); elementni 40%ga burish.
+    transform: tranclate(0,0); elementni x, y o'qi yordamida siljitish.
+    transform: skew(0,0); elementni x, y o'qi yordamida og'dirish.
+    transform: scale(0,0); elementni o'lchovini oshirish yoki kamaytirish. normal o'lchovi 1ga teng bo'ladi. 
+*/

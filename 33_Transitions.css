@@ -1,0 +1,61 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s;
+}
+
+.box:hover {
+    width: 400px;
+    background-color: green;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 2s;
+    margin-bottom: 20px;
+}
+
+.box1:hover {
+    width: 400px;
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+.cubic-bezier {
+    transition-timing-function: cubic-bezier(0.04, 1.4, 0.99,-0.23);
+}
+
+/* ---------------- */
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+.box2:hover {
+    width: 400px;
+}
