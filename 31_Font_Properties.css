@@ -1,0 +1,63 @@
+/* Font style */
+.font-style-normal {
+    font-style: normal;
+}
+
+.font-style-oblique {
+    font-style: oblique;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+/* /Font style */
+
+/* Font-weight */
+.font-weight-normal {
+    font-weight: normal;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-bolder {
+    font-weight: bolder;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+/* /Font-weight */
+
+/* Line-heights */
+.line-height-normal {
+    line-height: normal;
+}
+
+.line-height-number {
+    line-height: 1.5; /* font-size=16px * 1.5 == 24px */
+}
+
+.line-height-px {
+    line-height: 30px;
+}
+
+.line-height-percent {
+    line-height: 90%; /* normal line-height * 0.9 = 14px */
+}
+/* /Line-height */
+
+/* Letter-spacing */
+.letter-spacing-normal {
+    letter-spacing: normal;
+}
+
+.letter-spacing-positive-length {
+    letter-spacing: 10px;
+}
+
+.letter-spacing-negative-length {
+    letter-spacing: -5px;
+}
+/* /Letter-spacing */
