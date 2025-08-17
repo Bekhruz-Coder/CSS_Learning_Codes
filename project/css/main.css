@@ -8,12 +8,11 @@
 
 .main-section {
     padding: 7.5rem 1.875rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-section > div {
-    width: 50%;
-    float: left;
-}
+
 
 .main-section__image {
     text-align: right;
@@ -69,10 +68,10 @@
 /* Statistics */
 .statistics {
     padding-top: 6.25;
+    display: flex;
 }
 
 .statistics__item {
-    display: inline-block;
     background-color: #f8faff;
     text-align: center;
     padding: 0.32rem 0.625rem;
@@ -100,11 +99,12 @@
 /* About me */
 .about-me {
     padding: 6.25rem 0;
+    display: flex;
+    align-items: center;
 }
 
 .about-me > div {
-    width: 50%;
-    float: left;
+    flex: 1;
 }
 
 .about-me__image img {
@@ -129,9 +129,12 @@
     padding-top: 6.25rem;
 }
 
+.services__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
 .service-card {
-    display: inline-block;
-    width: 30%;
     padding: 3.75rem 1.87rem;
     background-color: #f8faff;
     margin-right: 3%;
@@ -177,12 +180,16 @@
 /* Clients section styles */
 .clients {
     padding-top: 6.25rem;
+    
 }
 
+.client-item {
+    display: flex;
+    align-items: center;
+
+}
 .client-item > div {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
+    flex: 1;
 }
 
 .client-item__image img {
@@ -190,7 +197,6 @@
 }
 
 .client-item__info {
-    padding-top: 3.12rem;
     padding-left: 3.12rem;
 }
 
@@ -323,14 +329,14 @@
     padding-top: 6.25rem;
 }
 
-.blot-items {
+.blog-items {
     margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .blog-item {
-    display: inline-block;
     overflow: hidden;
-    width: 30%;
     margin-right: 3%;
     box-sizing: border-box; /* marginni width ichida xisoblash uchun */
 }
@@ -405,10 +411,11 @@
 .partners {
     padding-top: 6.25rem;
     padding-bottom: 8.75rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .partner {
-    display: inline-block;
     padding: 0 1.87rem;
     max-width: 100%;
     cursor: pointer;
