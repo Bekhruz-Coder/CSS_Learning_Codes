@@ -54,12 +54,14 @@
                 <form action="/server.php" method="get">
                     <textarea name="message" id="message" placeholder="Enter Message" class="text-area" rows="10"></textarea>
 
-                    <div class="half-row contact__firstname">
-                        <input type="text" placeholder="Enter your name" name="firstname">
-                    </div>
-                    
-                    <div class="half-row contact__email">
-                        <input type="email" placeholder="Enter your email" name="email">
+                    <div class="half-flex">
+                        <div class="contact__firstname">
+                            <input type="text" placeholder="Enter your name" name="firstname">
+                        </div>
+                        
+                        <div class="contact__email">
+                            <input type="email" placeholder="Enter your email" name="email">
+                        </div>
                     </div>
 
                     <input type="text" placeholder="Enter subject" name="subject-from-user">

@@ -21,18 +21,18 @@
     box-shadow: none;
 }
 
-.half-row {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
+.half-flex {
+    display: flex;
 }
 
 .contact__firstname {
     padding-right: 1.87rem;
+    flex: 1;
 }
 
 .contact__email {
     padding-left: 1.87rem;
+    flex: 1;
 }
 
 .contact__send {
@@ -40,8 +40,8 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .half-row {
-        width: 100%;
+    .half-flex {
+        flex-direction: column;
         box-sizing: border-box;
     }
 
